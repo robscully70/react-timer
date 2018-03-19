@@ -4,14 +4,13 @@
     color: $nav-text-color;
 }
 
-.top-bar-right {
-    ul {
-        li {
-            a{
-                display: inline-block;
-                padding: 0;
-            }
-        }
+.top-bar {
+    .menu > .menu-text > a{
+        display: inline-block;
+        padding: 0;
+    }
+    .active-link{
+        font-weight: bold;
     }
 
 }
